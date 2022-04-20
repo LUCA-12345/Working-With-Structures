@@ -1,5 +1,3 @@
-// Lab 11A.cpp
-// Programmer: Luke Tascone
 
 #include <iostream>
 #include <fstream>
