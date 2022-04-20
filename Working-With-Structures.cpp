@@ -16,7 +16,7 @@ struct Player {
     string name;
     string team;
     string jerseyNum;
-    Date dateOfBirth; //Structure Date is nested in structure Player.
+    Date dateOfBirth; 
 };
 
 int found = 0;
@@ -39,7 +39,7 @@ int main()
 
     Player players[SIZE];
 
-    addData(players); // Call the function that reads the data from the file
+    addData(players); 
     option = showMenu();
 
     Player foundPlayer;
